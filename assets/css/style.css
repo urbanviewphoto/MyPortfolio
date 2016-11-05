@@ -50,6 +50,22 @@ p:hover {
 	background-color: orange;
 	font-weight: bold;
 }
+
+button {
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	background: #36a59f;
+	color: #ffffff;
+	border: 0px;
+}
+	
+textarea {
+	clear:both;	
+	width: 100%;
+	font-size: 15px;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
@@ -102,7 +118,7 @@ p:hover {
 	margin-right: 10px;
 }
 
-#AboutMe {
+#AboutMe, #portfolio, #contactme {
 	width: 650px;
 	background-color: #ffffff;
 	float: left;
@@ -119,6 +135,29 @@ p:hover {
 
 .icon {
 	width: 50px;
+}
+
+#contactForm form input {
+	margin-top: 3px;
+	width: 100%;
+	font-size: 15px;
+}
+
+#contactForm form {
+	color: #606060;
+}
+
+
+#portpics img {
+	width: 200px;
+}
+
+#pic1 {
+	float: left;
+}
+
+#pic2 {
+	float: left;
 }
 
 /*other pages styles go here*/
